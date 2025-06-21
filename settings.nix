@@ -1,13 +1,13 @@
 {pkgs, inputs, ...}:
 rec {
     system = "x86_64-linux";
-    hostname = "alfheim"; # Hostname
+    hostname = "ftz-laptop"; # Hostname
     username = "fernando"; # Username
-    profile = "desktop"; # Select from profiles directory
+    profile = "laptop"; # Select from profiles directory
     timezone = "Europe/Moscow"; # Select timezone
-    locale = "en_US.UTF-8"; # Select locale
-    name = "Nikita Zheleztsov"; # Name (git config)
-    email = "n.zheleztsov@proton.me"; # Email (git config)
+    locale = "es_CL.UTF-8"; # Select locale
+    name = "Fernando Martinez"; # Name (git config)
+    email = "2keep2mind@gmail.com"; # Email (git config)
     dotfilesDir = "/home/${username}/.dotfiles"; # Absolute path of the repo;
 
     theme = "catppuccin"; # Selected theme from themes directory (./themes/)
