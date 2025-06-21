@@ -4,7 +4,7 @@ rec {
     hostname = "ftz-laptop"; # Hostname
     username = "fernando"; # Username
     profile = "laptop"; # Select from profiles directory
-    timeZone = "America/Santiago"; # Select timezone
+    timezone = "America/Santiago"; # Select timezone
     locale = "es_CL.UTF-8"; # Select locale
     name = "Fernando Martinez"; # Name (git config)
     email = "2keep2mind@gmail.com"; # Email (git config)
