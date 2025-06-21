@@ -4,8 +4,7 @@ pkgs.mkShell {
   name = "db-internals-env";
   buildInputs = with pkgs; [
     foundationdb
-    openjdk17
-    graalvm17
+    jdk24
     maven
     bazel
     go
@@ -17,6 +16,6 @@ pkgs.mkShell {
     k9s
   ];
   shellHook = ''
-    echo "✅ Entorno listo: DB Internals + Java + K8s"
+    echo "✅ Entorno listo: DB Internals"
   '';
 }
