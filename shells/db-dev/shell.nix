@@ -4,7 +4,6 @@ pkgs.mkShell {
   name = "db-internals-env";
   buildInputs = with pkgs; [
     foundationdb
-    scylladb
     openjdk17
     graalvm17
     maven
